@@ -10,7 +10,7 @@ MST_FM_MCMC.R : Function for MCMC estimation (estimation step 6 in Table 1) of M
 
 MST_FM_inference.R : Function for obtaining prediction and inference for multilevel trajectories described in Section 2.2 of "Multilevel Modeling of Spatially Nested Functional Data: Spatiotemporal Patterns of Hospitalization Rates in the U.S. Dialysis Population".
 
-MST_FM_correctedinference.R : Function for obtaining corrected prediction and inference for region-specific trajectories for applications with small number of regions described in Section 2.3 and Web Appendix B Table S1 of "Multilevel Modeling of Spatially Nested Functional Data: Spatiotemporal Patterns of Hospitalization Rates in the U.S. Dialysis Population"
+MST_FM_correctedinference.R : Function for obtaining corrected prediction and inference for region-specific trajectories for applications with small number of regions described in Section 2.3 and Web Appendix B Table S1 of "Multilevel Modeling of Spatially Nested Functional Data: Spatiotemporal Patterns of Hospitalization Rates in the U.S. Dialysis Population".
 
 INTRODUCTION ——————————————
 
