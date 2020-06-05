@@ -2,7 +2,7 @@
 #############################################################################
 ## Description: A step-by-step implementation of MST-FM and the associated  
 ## procedures described in "Multilevel Modeling of Spatially Nested Functional Data:
-## Spatial Variation in Hospitalization Rates among U.S. Dialysis Patients".  
+## Spatiotemporal Patterns of Hospitalization Rates in the U.S. Dialysis Population".  
 #############################################################################
 ## Functions implemented: 
 ## MST_FM_simulation.R, MST_FM_decomposition.R, MST_FM_MCMC.R, MST_FM_inference.R, MST_FM_correctedInference.R
