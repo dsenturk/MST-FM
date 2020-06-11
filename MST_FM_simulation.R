@@ -77,12 +77,12 @@ MST_FM_simulation <- function(numRegion=1, # number of regions (scalar, input 1 
   # Load adjacency matrix from maps (need to upload)
   if(numRegion==1){
     # Merged HSA map
-    load("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Simulation/Final Simulation/AdjMat_1220.rData")
+    load("AdjMat_423.rData")
     # Adjacency matrix
     W <- AdjMat.Merge
   } else {
     # US states map 
-    load("C:/Users/Yihao Li/Desktop/49States.rData")
+    load("AdjMat_49.rData")
     }
   
   # Number of neighbors for each region
