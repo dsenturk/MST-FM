@@ -1,9 +1,9 @@
 # Code for generating Table 2 and Table S4 in paper and supplement
-source("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Code for submit/MST_FM_simulation_5_29.R")
-source("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Code for submit/MST_FM_decomposition_5_14.R")
-source("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Code for submit/MST_FM_MCMC_5_14.R")
-source("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Code for submit/MST_FM_inference_5_14.R")
-source("D:/My Drive/Research/Dialysis Facility/Spatial Models/Spatial_functional/Code/Code for submit/MST_FM_correctedinference_5_14.R")
+source("MST_FM_simulation_5_29.R")
+source("MST_FM_decomposition_5_14.R")
+source("MST_FM_MCMC_5_14.R")
+source("MST_FM_inference_5_14.R")
+source("MST_FM_correctedinference_5_14.R")
 
 numRun <- 50 # Number of simulation runs (200 runs are used for generating results in Table 2 and Table S4)
 FacilityPerRegion <- 1 # Number of facilities per region (scalar, input 1 if you want 4-20 facilities per region, input 2 if you want 10-30 facilities per region)
