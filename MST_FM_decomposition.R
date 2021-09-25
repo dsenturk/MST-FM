@@ -1,4 +1,4 @@
-MST_FM_decomposition <- function(data      # data.frame in long format with eight labeled columns (described below)
+MST_FM_decomposition <- function(data      # data.frame in long format with four labeled columns (described below)
                               # and row length equal to the length of the vectorized observations across all 
                               # regions, facilities and time points (NOTE: all facilities must have the same set of time points)
                               # DATA.FRAME COLUMNS: 
